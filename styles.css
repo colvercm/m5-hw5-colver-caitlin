@@ -1,0 +1,163 @@
+/*================
+Universal Styling
+================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(assets/white-waves.png);
+    width: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: rgb(247, 237, 226);
+    border-bottom: 2px solid rgb(132, 165, 157);
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+section {
+    float: left;
+    width: 400px;
+    height: 620px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+section::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+p {
+    font-family: sans-serif;
+    line-height: 150%;
+    text-indent: 10%;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: right;
+    width: 160px;
+    height: 70px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 270px;
+    text-align: center;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*================
+About Me Styling
+================*/
+
+.home {
+    float: left;
+    margin-left: 200px;
+    padding: 6px;
+    width: 10%;
+    background-color: rgb(246, 189, 96);
+}
+
+.home::after {
+    content: "";
+    clear: both;
+    display: inline;
+}
+
+.home:hover {
+    background-color: rgb(247, 237, 226);
+}
+
+nav a {
+    float: left;
+    margin: 15px 6px .1%;
+    width: 7%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.one {
+    margin-left: 240px;
+    border-right: 1px solid rgb(132, 165, 157);
+}
+
+.three {
+    border-left: 1px solid rgb(132, 165, 157);
+}
+
+section {
+    background-color: rgb(245, 202, 195);
+    margin-bottom: 20px;
+}
+
+.about {
+    font-family: monospace;
+    font-size: 22px;
+    border-bottom: 2px solid rgb(132, 165, 157);
+    margin-bottom: 13px;
+    padding-bottom: 4px;
+}
+
+.profile-image { 
+    float: left;
+    margin: 0 14px 10px 0;
+    box-shadow: 8px 8px 10px 0 rgb(83, 82, 82);
+    border-radius: 3px;
+}
+
+.aside {
+    background-color: rgb(245, 202, 195);
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 16px;
+    border-bottom: 2px solid rgb(132, 165, 157);
+    padding-bottom: 4px;
+    margin-bottom: 12px;
+}
+
+.GitHub {
+    margin-right: 4px;
+    box-shadow: 4px 4px 3px 0 rgb(128, 126, 126);
+    border-radius: 5px;
+}
+
+.linkedin {
+    margin-right: 4px;
+    box-shadow: 4px 4px 3px 0 rgb(128, 126, 126);
+    border-radius: 5px;
+}
+
+.sover {
+    box-shadow: 4px 4px 3px 0 rgb(128, 126, 126);
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-family: monospace;
+    font-size: 10px;
+    padding: 10px 0;
+    background-color: rgb(128, 126, 126);
+    border-top: 2px solid rgb(32, 165, 157);
+}
+
